@@ -1,0 +1,31 @@
+_Meta-Q_
+==========================================
+
+By Jay McCarthy <jay.mccarthy@gmail.com>
+
+Keywords: _misc_
+
+Introduction
+============
+
+_meta-q.ss_
+---------------
+
+Require it like this:
+
+> (require (planet "meta-q.ss" ("jaymccarthy" "meta-q.plt" 1)))
+
+It provides the follow identifiers:
+
+> meta-q-line-width : (parameter number?)
+
+> meta-q : string? -> string?
+
+Example
+=======
+
+History
+======
+
+June 21st
+     * Initial
